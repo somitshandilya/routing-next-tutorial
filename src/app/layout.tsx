@@ -14,9 +14,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <header className="bg-blue-500 p-4">
+        Header
+      </header>
       <body>
         {children}
       </body>
+      <footer className="bg-yellow-500 p-4">
+        Footer
+      </footer>
     </html>
   );
 }
